@@ -1,0 +1,10 @@
+SELECT * FROM IHAMSFT.app;
+SELECT DISTINCT prime_genre FROM IHAMSFT.app;
+SELECT prime_genre FROM IHAMSFT.app ORDER BY rating_count_tot DESC LIMIT 1;
+SELECT MAX(prime_genre) FROM IHAMSFT.app;
+SELECT MIN(prime_genre) FROM IHAMSFT.app;
+SELECT track_name FROM IHAMSFT.app ORDER BY rating_count_tot DESC LIMIT 10;
+SELECT track_name FROM IHAMSFT.app ORDER BY user_rating DESC LIMIT 10;
+SELECT track_name FROM IHAMSFT.app ORDER BY rating_count_tot, user_rating DESC LIMIT 10;
+SELECT track_name FROM IHAMSFT.app ORDER BY rating_count_tot, price DESC LIMIT 10;
+SELECT track_name FROM IHAMSFT.app ORDER BY price DESC LIMIT 10;

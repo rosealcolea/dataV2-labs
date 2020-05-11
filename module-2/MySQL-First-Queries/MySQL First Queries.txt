@@ -1,0 +1,87 @@
+**1. What are the different genres?**
+
+PRIME_GENRE:
+
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
+**2. Which is the genre with the most apps rated?**
+
+Social Networking
+
+**3. Which is the genre with most apps?**
+
+Weather
+
+**4. Which is the one with least?**
+
+Book
+
+**5. Find the top 10 apps most rated.**
+
+Facebook
+Instagram
+Clash of Clans
+Temple Run
+Pandora - Music & Radio
+Pinterest
+Bible
+Candy Crush Saga
+Spotify Music
+Angry Birds
+
+**6. Find the top 10 apps best rated by users.**
+
+:) Sudoku +
+King of Dragon Pass
+TurboScan��� Pro - document & receipt scanner: scan multiple pages and photos to PDF
+Plants vs. Zombies
+Learn to Speak Spanish Fast With MosaLingua
+Plants vs. Zombies HD
+The Photographer's Ephemeris
+���Sudoku +
+Flashlight ���
+Infinity Blade
+
+**7. Take a look at the data you retrieved in question 5. Give some insights.**
+
+Here we can find the most popular apps. All the apps on this list are familiar to me.
+
+**8. Take a look at the data you retrieved in question 6. Give some insights.**
+
+Here we can find the highest rated apps. Most of the apps on this list are unknown to me.
+
+**9. Now compare the data from questions 5 and 6. What do you see?**
+
+The top 10 from Q.6 is different than in the previous questions because we are filtering through rating, aka highest rated.
+A lower quantity of ratings makes it easier to acheive high total ratings, therefore it in not unusual to see a difference between both lists.
+
+**10. How could you take the top 3 regarding both user ratings and number of votes?**
+
+SELECT track_name FROM IHAMSFT.app ORDER BY rating_count_tot, user_rating DESC LIMIT 10
+
+**11. Do people care about the price of an app?** Do some queries, comment why are you doing them and the results you retrieve. What is your conclusion?
+
+I think people do care about the price of an app. 
+I compared the most expensive apps and their popularity against other cheaper apps
